@@ -1,0 +1,23 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sim_1/new/top_tb.v,1558702189,verilog,,,,DDU_tb,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/imports/lab5/bcdTo7Seg.v,1557327478,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/imports/new/counter.v,,bcdTo7Seg,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/imports/new/ALU.v,1557399958,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/ALU_control_part.v,,ALU,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/imports/new/counter.v,1558698769,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/imports/new/regflie.v,,counter,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/imports/new/regflie.v,1557497254,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/top.v,,regflie,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1557401411,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/imports/new/ALU.v,,dist_mem_gen_0,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/ALU_control_part.v,1557488720,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/ALU_part.v,,ALU_control_part,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/ALU_part.v,1557479111,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/Control_part.v,,ALU_part,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/Control_part.v,1558699489,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/DDU.v,,Control_part,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/DDU.v,1558703985,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/MEM_part.v,,DDU,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/DDU_part.v,1558587988,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/MEM_part.v,,DDU_part,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/MEM_part.v,1558615591,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/MUX_3ways.v,,MEM_part,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/MUX_3ways.v,1557403516,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/MUX_4ways.v,,MUX_3ways,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/MUX_4ways.v,1557399957,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/PC_module.v,,MUX_4ways,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/PC_module.v,1557474868,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/PC_part.v,,PC_module,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/PC_part.v,1558686278,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/RF_part.v,,PC_part,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/RF_part.v,1557497258,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/imports/lab5/bcdTo7Seg.v,,RF_part,,,,,,,,
+C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sources_1/new/top.v,1558686247,verilog,,C:/Users/11438/cpu_multiple_cycle/cpu_multiple_cycle.srcs/sim_1/new/top_tb.v,,CPU,,,,,,,,

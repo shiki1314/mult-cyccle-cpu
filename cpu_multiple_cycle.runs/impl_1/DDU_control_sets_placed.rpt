@@ -1,0 +1,119 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri May 24 22:08:19 2019
+| Host         : DESKTOP-975EH1T running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file DDU_control_sets_placed.rpt
+| Design       : DDU
+| Device       : xq7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    51 |
+| Unused register locations in slices containing registers |    52 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            5 |
+|      4 |            3 |
+|      6 |            2 |
+|     14 |            1 |
+|    16+ |           40 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             268 |           65 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              40 |            5 |
+| Yes          | No                    | No                     |              96 |           19 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            2128 |          644 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------+------------------------------------------------------------------------------------------+------------------+------------------+----------------+
+|           Clock Signal          |                                       Enable Signal                                      | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------------+------------------------------------------------------------------------------------------+------------------+------------------+----------------+
+|  M3/M5/PCWrite_reg_i_2_n_1      |                                                                                          |                  |                1 |              2 |
+|  M3/M5/MemWrite_reg_i_1_n_1     |                                                                                          |                  |                1 |              2 |
+|  M3/M5/PCWriterCond_reg_i_2_n_1 |                                                                                          |                  |                1 |              2 |
+|  M3/M5/IRWrite_reg_i_1_n_1      |                                                                                          |                  |                1 |              2 |
+|  M3/M5/lord_reg_i_2_n_1         |                                                                                          |                  |                1 |              2 |
+|  M3/M5/PCSource_reg[1]_i_1_n_1  |                                                                                          |                  |                1 |              4 |
+|  M3/M5/ALUOp_reg[1]_i_2_n_1     |                                                                                          |                  |                1 |              4 |
+|  clk_IBUF_BUFG                  |                                                                                          |                  |                2 |              4 |
+|  M3/M5/MemtoReg_reg_i_1_n_1     |                                                                                          |                  |                1 |              6 |
+|  M3/M5/ALUsrcB_reg[1]_i_2_n_1   |                                                                                          |                  |                1 |              6 |
+|  M1/clk_1000HZ                  |                                                                                          |                  |                3 |             14 |
+|  M1/clk_1000HZ                  | mem_rf_addr                                                                              |                  |                4 |             24 |
+|  clk_IBUF_BUFG                  |                                                                                          | M1/q[20]_i_1_n_1 |                5 |             40 |
+|  n_0_2052_BUFG                  |                                                                                          |                  |               15 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[13][0][0]                                                                 | rst_IBUF         |               21 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[14][0][0]                                                                 | rst_IBUF         |               22 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[16][0][0]                                                                 | rst_IBUF         |               12 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[17][0][0]                                                                 | rst_IBUF         |               17 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[23][0][0]                                                                 | rst_IBUF         |               16 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[25][0][0]                                                                 | rst_IBUF         |               17 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[22][0][0]                                                                 | rst_IBUF         |               15 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[27][0][0]                                                                 | rst_IBUF         |               22 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[11][0][0]                                                                 | rst_IBUF         |               15 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[12][0][0]                                                                 | rst_IBUF         |               23 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[18][0][0]                                                                 | rst_IBUF         |               16 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[24][0][0]                                                                 | rst_IBUF         |               21 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[10][0][0]                                                                 | rst_IBUF         |               16 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[15][0][0]                                                                 | rst_IBUF         |               26 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[19][0][0]                                                                 | rst_IBUF         |               16 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[21][0][0]                                                                 | rst_IBUF         |               20 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[28][0][0]                                                                 | rst_IBUF         |               20 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[26][0][0]                                                                 | rst_IBUF         |               16 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[20][0][0]                                                                 | rst_IBUF         |               19 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[29][0][0]                                                                 | rst_IBUF         |               24 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[1][0][0]                                                                  | rst_IBUF         |               23 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[2][0][0]                                                                  | rst_IBUF         |               13 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[0][0][0]                                                                  | rst_IBUF         |               13 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[9][0][0]                                                                  | rst_IBUF         |               28 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[5][0][0]                                                                  | rst_IBUF         |               23 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[3][0][0]                                                                  | rst_IBUF         |               19 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[30][0][0]                                                                 | rst_IBUF         |               25 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[4][0][0]                                                                  | rst_IBUF         |               18 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[8][0][0]                                                                  | rst_IBUF         |               25 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[6][0][0]                                                                  | rst_IBUF         |               18 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/regs_reg[7][0][0]                                                                  | rst_IBUF         |               25 |             64 |
+|  CLK_CPU_BUFG                   | M3/M2/E[0]                                                                               | rst_IBUF         |               27 |             64 |
+|  CLK_CPU_BUFG                   | M3/M5/IRWrite                                                                            |                  |               15 |             72 |
+|  CLK_CPU_BUFG                   | M3/M2/PC_reg[0][0]                                                                       | rst_IBUF         |               13 |             80 |
+|  CLK_CPU_BUFG                   |                                                                                          |                  |               36 |            156 |
+|  CLK_CPU_BUFG                   | M3/M2/M/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_128_255_0_0_i_1_n_0 |                  |               32 |            256 |
+|  CLK_CPU_BUFG                   | M3/M2/M/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_0_127_0_0_i_1_n_0   |                  |               32 |            256 |
++---------------------------------+------------------------------------------------------------------------------------------+------------------+------------------+----------------+
+
+
